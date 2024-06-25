@@ -2,13 +2,13 @@
   {
     "Name": "Morphing Identity",
     "Title": "Morphing Identity: Exploring Self-Other Identity Continuum through Interpersonal Facial Morphing Experience",
-    "Author": "Kye Shimizu, Santa Narus, Jun Nishida, and Shunichi Kasahara",
+    "Author": "Kye Shimizu, Santa Naruse, Jun Nishida, and Shunichi Kasahara",
     "Venue": "CHI2023",
     "Year": 2023,
     "PaperLink": "https://dl.acm.org/doi/pdf/10.1145/3544548.3580853",
     "ThumbnailLink": "https://drive.usercontent.google.com/download?id=1kGcBwu9hYt8YHRZGPABI8eAdGgI7U-4B",
     "VideoLink": "https://doi.org/10.1145/3544548.3580853",
-    "Abstract": "We explored continuous changes in self-other identity by designing an interpersonal facial morphing experience where facial images of two users are blended and swapped over time. This study revealed a Self-Other Continuum in the context of agency and facial identity, enhancing our understanding of social and subjective aspects of interpersonal communication."
+    "Abstract": "We explored continuous changes in self-other identity by designing an interpersonal facial morphing experience where the facial images of two users are blended and then swapped over time. Both users’ facial images are displayed side by side, with each user controlling their own morphing facial images, allowing us to create and investigate a multifaceted interpersonal experience. To explore this with diverse social relationships, we conducted qualitative and quantitative investigations through public exhibitions. We found that there is a window of self-identification as well as a variety of interpersonal experiences in the facial morphing process. From these insights, we synthesized a Self-Other Continuum represented by a sense of agency and facial identity. This continuum has implications in terms of the social and subjective aspects of interpersonal communication, which enables further scenario design and could complement findings from research on interactive devices for remote communication."
   },
   {
     "Name": "DigituSync",
