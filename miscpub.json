@@ -41,7 +41,7 @@
     "Author": "Junyi Zhu, Liang He, Jun Nishida, Hamid Ghaednia, Hsin-Liu Kao, Jon E. Froehlich, Edward Wang, Stefanie Mueller",
     "Venue": "ACM CHI 2022 SIG",
     "Year": 2022,
-    "PaperLink": "https://dl.acm.org/doi/abs/10.1145/3491101.3516408",
+    "PaperLink": "https://dl.acm.org/doi/10.1145/3491101.3516408",
     "ThumbnailLink": "",
     "VideoLink": "",
     "Abstract": "With the development of low-cost electronics, rapid prototyping techniques, as well as widely available mobile devices (e.g. mobile phones, smart watches), projects related to the design and fabrication of personal health sensing applications, either on top of existing device platforms (e.g. mHealth), or as stand-alone devices, have emerged in the last decade. In addition, recent advances in novel sensing and interface technologies, accessibility studies and system design open up new possibilities and can bring in different perspectives for personal health sensing. We believe that joining the forces in such interdisciplinary work is a key to moving the field of personal health sensing forward. This Special Interest Group aims to bring in researchers from different fields, identify the significance and challenges of the personal health sensing domain, discuss potential solutions and future research directions, and promote collaborative research opportunities.",
