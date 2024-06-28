@@ -30,7 +30,7 @@
     "Venue": "ACM TOCHI",
     "Year": 2022,
     "PaperLink": "https://dl.acm.org/doi/10.1145/3489608",
-    "ThumbnailLink": "",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/v1/66214dcc26841d4d27c5ba9b/1719467337796-OY9QFA6S8UCGAQ67K55L/WT.jpeg?format=500w",
     "VideoLink": "",
     "Abstract": "Force-feedback enhances digital touch by enabling users to share non-verbal aspects such as rhythm, poses, and so on. To achieve this, interfaces actuate the user’s to touch involuntarily (using exoskeletons or electrical-muscle-stimulation); we refer to this as computer-driven touch. Unfortunately, forcing users to touch causes a loss of their sense of agency. While researchers found that delaying the timing of computer-driven touch preserves agency, they only considered the naïve case when user-driven touch is aligned with computer-driven touch. We argue this is unlikely as it assumes we can perfectly predict user-touches. But, what about all the remainder situations: when the haptics forces the user into an outcome they did not intend or assists the user in an outcome they would not achieve alone? We unveil, via an experiment, what happens in these novel situations. From our findings, we synthesize a framework that enables researchers of digital-touch systems to trade-off between haptic-assistance vs. sense-of-agency.",
     "Award": ""
@@ -42,7 +42,7 @@
     "Venue": "ACM CHI 2022",
     "Year": 2022,
     "PaperLink": "https://dl.acm.org/doi/10.1145/3491102.3501910",
-    "ThumbnailLink": "",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/v1/66214dcc26841d4d27c5ba9b/14cdcd9f-c7f2-401d-9c18-0cbc0c3ade5d/EHA.png?format=500w",
     "VideoLink": "https://www.youtube.com/watch?v=vqpH9gNGpts",
     "Abstract": "We propose a novel interface concept in which interactive systems directly manipulate the user's head orientation. We implement this using electrical-muscle-stimulation (EMS) of the neck muscles, which turns the head around its yaw (left/right) and pitch (up/down) axis. As the first exploration of EMS for head actuation, we characterized which muscles can be robustly actuated. Second, we evaluated the accuracy of our system for actuating participants' head orientation towards static targets and trajectories. Third, we demonstrated how it enables interactions not possible before by building a range of applications, such as (1) synchronizing head orientations of two users, which enables a user to communicate head nods to another user while listening to music, and (2) directly changing the user's head orientation to locate objects in AR. Finally, in our second study, participants felt that our head actuation contributed positively to their experience in four distinct applications.",
     "Award": "People’s Choice Best Demo Award"
@@ -54,7 +54,7 @@
     "Venue": "ACM CHI 2021",
     "Year": 2021,
     "PaperLink": "https://dl.acm.org/doi/10.1145/3411764.3445147",
-    "ThumbnailLink": "",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/v1/66214dcc26841d4d27c5ba9b/b5a51b05-fc9c-4f9c-bb9a-a38084469f14/EMSfaster.jpeg?format=500w",
     "VideoLink": "https://www.youtube.com/watch?v=jVpUu9tCLtY",
     "Abstract": "Force feedback devices, such as motor-based exoskeletons or wearables based on electrical muscle stimulation (EMS), have the unique potential to accelerate users’ own reaction time (RT). However, this speedup has only been explored while the device is attached to the user. In fact, very little is known regarding whether this faster reaction time still occurs after the user removes the device from their bodies–this is precisely what we investigated by means of a simple reaction time (RT) experiment, in which participants were asked to tap as soon as they saw an LED flashing. Participants experienced this in three EMS conditions: (1) fast-EMS, the electrical impulses were synced with the LED; (2) agency-EMS, the electrical impulse was delivered 40ms faster than the participant’s own RT, which prior work has shown to preserve one’s sense of agency over this movement; and, (3) late-EMS: the impulse was delivered after the participant’s own RT. Our results revealed that the participants’ RT was significantly reduced by approximately 8ms (up to 20ms) only after training with the agency-EMS condition. This finding suggests that the prioritizing agency during EMS training is key to motor-adaptation, i.e., it enables a faster motor response even after the user has removed the EMS device from their body.",
     "Award": ""
@@ -65,8 +65,8 @@
     "Author": "Jas Brooks, Shan-Yuan Teng, Jingxuan Wen, Romain Nith, Jun Nishida, Pedro Lopes",
     "Venue": "ACM CHI 2021",
     "Year": 2021,
-    "PaperLink": "https://dl.acm.org/doi/10.1145/3411764.3445300",
-    "ThumbnailLink": "",
+    "PaperLink": "",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/v1/66214dcc26841d4d27c5ba9b/eec97f0f-909e-4dc2-b0f8-f346a0e22916/ETS.jpg?format=500w",
     "VideoLink": "https://www.youtube.com/watch?v=sbmYBUSuM48",
     "Abstract": "We propose a novel type of olfactory device that creates a stereo-smell experience, i.e., directional information about the location of an odor, by rendering the readings of external odor sensors as trigeminal sensations using electrical stimulation of the user's nasal septum. The key is that the sensations from the trigeminal nerve, which arise from nerve-endings in the nose, are perceptually fused with those of the olfactory bulb (the brain region that senses smells). As such, we propose that electrically stimulating the trigeminal nerve is an ideal candidate for stereo-smell augmentation/substitution that, unlike other approaches, does not require implanted electrodes in the olfactory bulb. To realize this, we engineered a self-contained device that users wear across their nasal septum. Our device outputs by stimulating the user's trigeminal nerve using electrical impulses with variable pulse-widths; and it inputs by sensing the user's inhalations using a photoreflector. It measures 10x23 mm and communicates with external gas sensors using Bluetooth. In our user study, we found the key electrical waveform parameters that enable users to feel an odor's intensity (absolute electric charge) and direction (phase order and net charge). In our second study, we demonstrated that participants were able to localize a virtual smell source in the room by using our prototype without any previous training. Using these insights, our device enables expressive trigeminal sensations and could function as an assistive device for people with anosmia, who are unable to smell.",
     "Award": ""
@@ -114,7 +114,7 @@
     "Venue": "ACM CHI 2019",
     "Year": 2019,
     "PaperLink": "https://dl.acm.org/doi/10.1145/3313831.3376242",
-    "ThumbnailLink": "",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/v1/66214dcc26841d4d27c5ba9b/261e0fa9-3ab5-4992-bc88-04b23503229a/Hint.png?format=500w",
     "VideoLink": "",
     "Abstract": "Human-Computer Integration (HInt) is an emerging paradigm in which computational and human systems are closely interwoven. Integrating computers with the human body is not new. however, we believe that with rapid technological advancements, increasing real-world deployments, and growing ethical and societal implications, it is critical to identify an agenda for future research. We present a set of challenges for HInt research, formulated over the course of a five-day workshop consisting of 29 experts who have designed, deployed and studied HInt systems. This agenda aims to guide researchers in a structured way towards a more coordinated and conscientious future of human-computer integration.",
     "Award": ""
