@@ -5,9 +5,9 @@
     "Author": "Jun Nishida, Daisuke Tajima, Yasuko Namikawa and Shunichi Kasahara",
     "Venue": "ACM SIGGRAPH 2024 Emerging Technologies",
     "Year": 2024,
-    "PaperLink": "",
+    "PaperLink": "https://dl.acm.org/doi/10.1145/3641517.3664390",
     "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/aac73a86-a786-4d3c-b861-98f77cc62bec/SIGGRAPH2024.png",
-    "VideoLink": "",
+    "VideoLink": "https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYzYxMzVjMThmM2MxYmRhZDNjODBiMWExY2RhZGQ3ZCIsImV4cCI6MTcxOTcyODA4Mywia2lkIjoiN2I4MzU4NzQ2ZTViZjQzNDI2OWMxMGU2MDA4NGY1YmIifQ.jveQmi_8tnsQYQCDLXdopYNlcisEpqjt01Dtn2NiVjXXLKrzWfzNdE6sa7PAfXrD5uV3M1Ouz6Cp93kAQ8R5oIEdBNcl7N4_61GWm7KUNilcmdL3tLmzQtOk1hdmr6eve_yNnEZ-Y9NK9_MB8KpIvXGhzwkPDmZF8Ftq-xCYFZzSRhnO7S0QBNQPobeC58aiPmUQR4ssf4Jq1zFfuaCf4EWyqaKUfcTc6E4vdX1d97e5SOVPG0J8sQw4X7iWwuz4cHp-DE9N_RnNmrRyqiRoVkn5CN0iLOC6hRK5K4AANbsRCwEnTy_raPqqSbpLVNqyVjqybmcxJXWcz59oJzSEJw?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYzYxMzVjMThmM2MxYmRhZDNjODBiMWExY2RhZGQ3ZCIsImV4cCI6MTcxOTcyODA4Mywia2lkIjoiN2I4MzU4NzQ2ZTViZjQzNDI2OWMxMGU2MDA4NGY1YmIifQ.jveQmi_8tnsQYQCDLXdopYNlcisEpqjt01Dtn2NiVjXXLKrzWfzNdE6sa7PAfXrD5uV3M1Ouz6Cp93kAQ8R5oIEdBNcl7N4_61GWm7KUNilcmdL3tLmzQtOk1hdmr6eve_yNnEZ-Y9NK9_MB8KpIvXGhzwkPDmZF8Ftq-xCYFZzSRhnO7S0QBNQPobeC58aiPmUQR4ssf4Jq1zFfuaCf4EWyqaKUfcTc6E4vdX1d97e5SOVPG0J8sQw4X7iWwuz4cHp-DE9N_RnNmrRyqiRoVkn5CN0iLOC6hRK5K4AANbsRCwEnTy_raPqqSbpLVNqyVjqybmcxJXWcz59oJzSEJw%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s",
     "Abstract": "We developed a magnetic hand exoskeleton that can provide high-speed finger actuation, allowing to assist fast finger drumming and eSports",
     "Award": ""
   },
