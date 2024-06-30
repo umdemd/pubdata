@@ -175,7 +175,7 @@
     "Venue": "IEEE EMBC 2019",
     "Year": 2019,
     "PaperLink": "https://ieeexplore.ieee.org/document/8857538",
-    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/01239792-19ad-4434-ae1c-77ee9db0937a/EMBC2019.jpeg",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/01239792-19ad-4434-ae1c-77ee9db0937a/EMBC2019.jpeg?format=500w",
     "VideoLink": "",
     "Abstract": "In this paper, we developed a wearable kinesthetic I/O system, which is able to share wrist joint stiffness by measuring and intervening in four muscle activities on the forearm simultaneously through the same electrodes. This achieves interactive peg rehabilitation by sharing muscle activities among patients and therapists. Through the performance study, it was shown that 1) applied EMS and measured wrist joint stiffness, and 2) produced wrist joint stiffness and measured EMG value has a linear correlation, which allows designing a mapping function between the measured EMG value on one person and the EMS value applied to another person. In a perceptual study, which shared the wrist stiffness between two persons, participants were able to recognize the level of their confederate's wrist joint stiffness using a 4-point Likert scale linearly. The developed system would benefit a physical therapist and a patient for sharing their wrist stiffness and grip force, which are usually difficult to be observed in a visual contact.",
     "Award": "",
