@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .expandable-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .paper-image {
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .paper-image.selected {
+            width: 150px;
+            height: 150px;
+        }
+
+        .paper-image.other {
+            margin-top: 30px;
+            /* Aligns the image at the start of the flex container */
+            width: 100px;
+            height: 50px;
+        }
+
+        body {
+            background-color: #f7fafc;
+        }
+
+        .container {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .space-y-4>*+* {
+            margin-top: 1rem;
+        }
+
+        .bg-white {
+            background-color: #ffffff;
+        }
+
+        .shadow {
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        }
+
+        .p-4 {
+            padding: 1rem;
+        }
+
+        .hover\:bg-gray-100:hover {
+            background-color: #f7fafc;
+        }
+
+        .sm\:flex {
+            display: flex;
+            align-items: flex-start;
+            /* Aligns items at the start of the container */
+        }
+
+
+
+
+        .sm\:space-x-4>*+* {
+            margin-left: 1rem;
+        }
+
+        .space-y-2>*+* {
+            margin-top: 0.5rem;
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem;
+        }
+
+        .text-lg {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+
+        .font-medium {
+            font-weight: 500;
+        }
+
+        .font-light {
+            font-weight: 300;
+        }
+
+        .text-yellow-500 {
+            color: #ecc94b;
+        }
+
+        .mt-2 {
+            margin-top: 0.5rem;
+        }
+
+        .text-gray-600 {
+            color: #718096;
+        }
+
+        .text-orange {
+            color: #ff6600;
+        }
+
+        .abstract-text {
+            padding-left: 11.5rem;
+            text-align: justify;
+        }
+
+        .paper-details {
+            margin-left: 2rem;
+        }
+
+        .other-publications-header {
+            margin-top: 4rem;
+            /* Adjust this value as needed */
+        }
+
+        .reduced-padding {
+            margin-left: -3rem;
+            /* Adjust this value as needed */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <h2 class="text-xl mb-4">Selected Publications</h2>
+        <div id="selectedPapers" class="space-y-4"></div>
+        <h2 class="text-xl mb-4 other-publications-header">Other Publications</h2>
+        <div id="otherPapers" class="space-y-4"></div>
+    </div>
+
+    <script>
+        async function fetchSelectedPublications() {
+            const url = 'https://raw.githubusercontent.com/umdemd/pubdata/main/publication.JSON';
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('Network response was not ok for selected publications');
+            return response.json();
+        }
+
+        async function fetchOtherPublications() {
+            const url = 'https://raw.githubusercontent.com/umdemd/pubdata/main/miscpub.json';
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('Network response was not ok for other publications');
+            return response.json();
+        }
+
+        function createPaperHTML(paper, index, type) {
+            const defaultThumbnail = paper.ThumbnailLink || 'https://images.squarespace-cdn.com/content/v1/66214dcc26841d4d27c5ba9b/13999793-a792-4987-89e1-a000390d68b5/nothumbnail.jpg?format=500w';
+            let awardText = paper.Award && paper.Award.trim() !== "" ? `  &nbsp; | &nbsp; <span class="text-orange">${paper.Award}</span>` : "";
+            let imageClass = type === 'selected' ? 'selected' : 'other';
+            let abstractButton = ` &nbsp; | &nbsp; <a href="javascript:void(0);" onclick="toggleContent('content${type}${index}')" class="text-yellow-500">Abstract</a>`;
+            let videoLinkText = paper.VideoLink && paper.VideoLink.trim() !== "" ? ` &nbsp; | &nbsp; <a href="${paper.VideoLink}" class="text-yellow-500" target="_blank">Video</a>` : "";
+            let abstractClass = type === 'other' ? 'reduced-padding' : ''; // Apply reduced padding to other publications only
+            return `
+<div class="bg-white shadow p-4 hover:bg-gray-100">
+    <div class="sm:flex sm:space-x-4 space-y-2">
+        <img src="${defaultThumbnail}" alt="Paper Image" class="paper-image ${imageClass} mb-2">
+        <div class="paper-details">
+            <h2 class="text-lg font-medium">${paper.Title}</h2>
+            <p class="text-lg font-light">${paper.Author}</p>
+            <p>${paper.Venue} &nbsp; | &nbsp; <a href="${paper.PaperLink}" class="text-yellow-500" target="_blank">PDF</a>${videoLinkText}${awardText}${abstractButton}</p>
+        </div>
+    </div>
+    <div id="content${type}${index}" class="expandable-content ${abstractClass}">
+        <p class="mt-2 text-gray-600 abstract-text">${paper.Abstract}</p>
+    </div>
+</div>
+`;
+        }
+
+
+
+        function toggleContent(id) {
+            const content = document.getElementById(id);
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        }
+
+
+
+        async function loadPapers() {
+            try {
+                const selectedPapers = await fetchSelectedPublications();
+                const otherPapers = await fetchOtherPublications();
+                document.getElementById('selectedPapers').innerHTML = selectedPapers.map((paper, index) => createPaperHTML(paper, index, 'selected')).join('');
+                document.getElementById('otherPapers').innerHTML = otherPapers.map((paper, index) => createPaperHTML(paper, index, 'other')).join('');
+            } catch (error) {
+                console.error('Error loading papers:', error);
+            }
+        }
+
+
+        document.addEventListener('DOMContentLoaded', loadPapers);
+    </script>
+</body>
+
+</html>
