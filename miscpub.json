@@ -1,8 +1,32 @@
 [
   {
+    "Name": "Hapticus",
+    "Title": "Demonstrating Hapticus: Exploring the Effects of Haptic Feedback and its Customization on Motor Skill Learning: Tactile, Haptic, and Somatosensory Approaches",
+    "Author": "Kyungyeon Lee, Daniel S Yang, and Jun Nishida",
+    "Venue": "ACM CHI 2025 Interactivity",
+    "Year": 2025,
+    "PaperLink": "",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/1742524507528-A2UYAXYDE0CXJOYEI5CM/HC.JPG?format=500w",
+    "VideoLink": "",
+    "Abstract": "Numerous haptic devices have been proposed to support motor learning. Understanding the impact of each type of feedback on users’ learning performance and experience, as well as the effects of customizing the haptic feedback each user receives, is vital to achieving both efficient and highly motivating learning. To explore this, we developed three devices to assist piano learning: a hand exoskeleton with mechanical linkages (linkage), a vibrotactile glove (tactile), and Electrical Muscle Stimulation (EMS). Furthermore, we demonstrate a haptic customization, where users can customize the feedback order based on their preferences.",
+    "Award": ""
+  },
+  {
+    "Name": "NeuResonance",
+    "Title": "Demonstrating NeuResonance: Inter-brain Synchronization and Feedback Modalities in Collaboration",
+    "Author": "Jamie Ngoc Dinh*, Snehesh Shrestha*, You-Jin Kim, Jun Nishida, and Myungin Lee",
+    "Venue": "ACM CHI 2025 Interactivity",
+    "Year": 2025,
+    "PaperLink": "",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/1742524958530-PKS92T2H9KY2B2WRSYE2/IMG_5112.JPG?format=500w",
+    "VideoLink": "",
+    "Abstract": "",
+    "Award": "When several individuals collaborate on a shared task, their brain activities often synchronize. This phenomenon, known as Inter-brain Synchronization (IBS), is notable for inducing prosocial outcomes such as enhanced interpersonal feelings, including closeness, trust, empathy, and more. The NeuResonance project investigates whether visual, auditory, and haptic feedback of the IBS level can further enhance its intensity, offering design recommendations for feedback systems in IBS. Through this interactive experience, we demonstrate the findings of NeuResonance by showcasing three different types of IBS level feedback, including on-body projection mapping, sonification using chords, and vibration bands attached to the wrist. Using a slider interface visitors can vary the IBS level, controlling the feedback exactly how they would have felt if they were the participants of the study."
+  },
+  {
     "Name": "Magnus",
     "Title": "Demonstrating Magnus: A Magnetic Hand Exoskeleton for Fast and Dexterous Finger Actuation",
-    "Author": "Jun Nishida, Daisuke Tajima, Yasuko Namikawa and Shunichi Kasahara",
+    "Author": "Jun Nishida, Daisuke Tajima, Yasuko Namikawa, and Shunichi Kasahara",
     "Venue": "ACM SIGGRAPH 2024 Emerging Technologies",
     "Year": 2024,
     "PaperLink": "https://dl.acm.org/doi/10.1145/3641517.3664390",
