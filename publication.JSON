@@ -5,10 +5,10 @@
     "Author": "Kyungyeon Lee, Daniel S Yang, Kriti Singh, and Jun Nishida",
     "Venue": "ACM CHI 2025",
     "Year": 2025,
-    "PaperLink": "",
+    "PaperLink": "https://dl.acm.org/doi/10.1145/3706598.3713821",
     "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/1742524507528-A2UYAXYDE0CXJOYEI5CM/HC.JPG?format=500w",
-    "VideoLink": "",
-    "Abstract": "Numerous haptic devices have been proposed to support motor learning, such as a hand exoskeleton with mechanical linkages, a vibrotactile glove, and an Electrical Muscle Stimulation (EMS) device. Understanding the impact of each type of feedback on users’ learning performance and experience, as well as the effects of customizing the haptic feedback each user receives, is vital to achieving both efficient and highly motivating learning.\n\nTo this end, we compared learning performance and experience while using these haptic devices for piano learning. It revealed the distinct characteristics of each device, notably, the exoskeleton was the most preferred despite certain drawbacks. We then conducted a user study to evaluate the effectiveness of haptic customization, allowing participants to customize the order of haptic feedback, demonstrating its advantages such as improved agency and performance.\n\nThese findings would benefit haptic designers by providing more efficient and optimized haptic feedback for motor learning scenarios.",
+    "VideoLink": "https://youtu.be/_dKKbYCUaRE?si=ac6h3YGnQGVx3skU",
+    "Abstract": "Numerous haptic devices have been proposed to support motor learning, such as a hand exoskeleton with mechanical linkages, a vibrotactile glove, and an Electrical Muscle Stimulation (EMS) device. Understanding the impact of each type of feedback on users’ learning performance and experience, as well as the effects of customizing the haptic feedback each user receives, is vital to achieving both efficient and highly motivating learning. To this end, we compared learning performance and experience while using these haptic devices for piano learning. It revealed the distinct characteristics of each device, notably, the exoskeleton was the most preferred despite certain drawbacks. We then conducted a user study to evaluate the effectiveness of haptic customization, allowing participants to customize the order of haptic feedback, demonstrating its advantages such as improved agency and performance.\n\nThese findings would benefit haptic designers by providing more efficient and optimized haptic feedback for motor learning scenarios.",
     "Award": ""
   },
   {
@@ -17,7 +17,7 @@
     "Author": "Jamie Ngoc Dinh*, Snehesh Shrestha*, You-Jin Kim, Jun Nishida, and Myungin Lee",
     "Venue": "ACM CHI 2025",
     "Year": 2025,
-    "PaperLink": "",
+    "PaperLink": "https://dl.acm.org/doi/10.1145/3706598.3713872",
     "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/1742524958530-PKS92T2H9KY2B2WRSYE2/IMG_5112.JPG?format=500w",
     "VideoLink": "",
     "Abstract": "When several individuals collaborate on a shared task, their brain activities often synchronize. This phenomenon, known as Inter-brain Synchronization (IBS), is notable for inducing prosocial outcomes such as enhanced interpersonal feelings, including closeness, trust, empathy, and more.\n\nFurther strengthening the IBS with the aid of external feedback would be beneficial for scenarios where those prosocial feelings play a vital role in interpersonal communication, such as rehabilitation between a therapist and a patient, motor skill learning between a teacher and a student, and group performance art. This paper investigates whether visual, auditory, and haptic feedback of the IBS level can further enhance its intensity, offering design recommendations for feedback systems in IBS.\n\nWe report findings when three different types of feedback were provided: IBS level feedback by means of on-body projection mapping, sonification using chords, and vibration bands attached to the wrist.",
