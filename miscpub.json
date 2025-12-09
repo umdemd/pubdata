@@ -1,5 +1,29 @@
 [
   {
+    "Name": "WireDrum",
+    "Title": "WireDrum: An Interpersonal and Multimodal Skill-Sharing System for an Augmented Drumming Experience",
+    "Author": "Hamza Shah Khan*, Hikari Yukawa*, Chikato Ikejiri, Yoshihiro Tanaka**, Jun Nishida**",
+    "Venue": "ACM SIGGRAPH Asia 2025 Emerging Technologies",
+    "Year": 2025,
+    "PaperLink": "https://dl.acm.org/doi/10.1145/3757373.3763783",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/106b1918-832e-42b9-8b41-08628ea4b948/SA25.png",
+    "VideoLink": "https://youtu.be/i0oJNk8W3DU",
+    "Abstract": "We present WireDrum — a synthetic, multimodal experience that enables motor skill transfer and learning among users. The system consists of multiple custom biosignal-sensing modules, a custom electrical muscle stimulator, a visual and tactile tempo indicator, and muscle-topology configuration software. By integrating the muscle activities of multiple instructors into a target user’s muscles, the user can perform complex physical skills beyond their original ability. Simultaneously, instructors can divide and reduce their cognitive load related to teaching and performing the task. We demonstrate a shared somatic and interpersonal drumming experience, where a visitor can play a cognitively demanding rhythm that is challenging for novices to perform alone by sharing the visitor’s body with other visitors.",
+    "Award": ""
+  },
+  {
+    "Name": "Hapticus",
+    "Title": "Hapticus: A Haptic Customization Tool for Effective Physical Skill Learning",
+    "Author": "Kyungyeon Lee, Daniel S Yang, and Jun Nishida",
+    "Venue": "ACM SIGGRAPH Asia 2025 Emerging Technologies",
+    "Year": 2025,
+    "PaperLink": "https://dl.acm.org/doi/10.1145/3757373.3763782",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/106b1918-832e-42b9-8b41-08628ea4b948/SA25.png",
+    "VideoLink": "https://youtu.be/ZMf-IY30RRM",
+    "Abstract": "Numerous haptic devices have been proposed to support motor learning, and haptic feedback has been shown to be effective in improving learning performance. Furthermore, recent studies have found that customized combinations of multiple haptic modalities can enhance learning outcomes and the overall experience compared to using a single modality. To enable effective haptic customization, we developed a customization tool, called Hapticus, and a combined device that integrates three modalities: Electrical Muscle Stimulation (EMS), vibrotactile feedback (Tactile), and a mechanical linkage-based exoskeleton (Linkage). These tools allow users to experience greater agency and improved feedback comfort during motor skill learning.",
+    "Award": ""
+  },
+  {
     "Name": "Hapticus",
     "Title": "Demonstrating Hapticus: Exploring the Effects of Haptic Feedback and its Customization on Motor Skill Learning: Tactile, Haptic, and Somatosensory Approaches",
     "Author": "Kyungyeon Lee, Daniel S Yang, and Jun Nishida",
