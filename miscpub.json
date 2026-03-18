@@ -1,8 +1,32 @@
 [
   {
+    "Name": "Body Transformation Experiences",
+    "Title": "Body Transformation Experiences: A workshop on How to Elicit, Assess and Support them through Multisensory Technology",
+    "Author": "Ana Tajadura-Jiménez, Elena Márquez Segura, Marte Roel Lesur, Laia Turmo Vidal, Frederic Bevilacqua, Nadia Berthouze, Aneesha Singh, Alice C Haynes, Pedro Lopes, Jun Nishida, Don Samitha Elvitigala, and Paul Strohmeier",
+    "Venue": "ACM CHI 2026 Workshops",
+    "Year": 2026,
+    "PaperLink": "https://doi.org/10.1145/3772363.3778778",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/08e98aea-088d-45d2-ac62-f98f2b12ceb1/CHI2026.jpg",
+    "VideoLink": "",
+    "Abstract": "Over the last 30 years researchers in HCI, Cognitive Neuroscience, and Interaction Design have shown a growing interest in experiences that engage the moving and sensual body to alter one’s body perception. The way one’s body is perceived is highly plastic and can be altered through multisensory signals and feedback related to the body. The emerging developments in multisensory interfaces open opportunities to enrich, augment and transform body experiences in the real-world through the senses. This workshop focuses on the theories, approaches, methods, and tools to design multisensory technology that elicit and support Body Transformation Experiences, and on how to best design these for and from a first-person, lived experience. We will explore how to elicit and assess multisensory Body Transformation Experiences, and showcase concrete examples of supporting them with technology. Through technology presentations, panel sessions with experts, and multidisciplinary discussions, this workshop aims to: (i) bring together researchers creating Body Transformation through sensory technology with those studying experiential effects of sensory-body interactions; (ii) map current methods, opportunities, and challenges in designing Body Transformation Experiences; and (iii) envision a road map for this field with future directions by fostering a multidisciplinary community, building collaborations, and inspiring innovative directions for design and research.",
+    "Award": ""
+  },
+  {
+    "Name": "NailBiting",
+    "Title": "When Awareness Isn't Enough: Exploring Physical Interventions for Nail-Biting",
+    "Author": "Yoon Kyung Shon, Kyungyeon Lee, Jun Nishida, and Pablo E. Paredes",
+    "Venue": "ACM CHI 2026 Workshops",
+    "Year": 2026,
+    "PaperLink": "https://doi.org/10.1145/3772363.3798489",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/08e98aea-088d-45d2-ac62-f98f2b12ceb1/CHI2026.jpg",
+    "VideoLink": "",
+    "Abstract": "Nail-biting is a habitual behavior that often occurs automatically. Individuals with limited self-control struggle to stop the behavior even when they are aware of it, making existing awareness-based interventions insufficient. Recent work reports that such individuals desire more direct, physically interruptive interventions; however, how users experience and accept these interventions remains underexplored. We conducted exploration sessions with active nail-biters to examine two intervention mechanisms-perceptual feedback and motor interference-instantiated through four wearable probes: vibrotactile, electrotactile, pneumatic actuation, and electrical muscle stimulation (EMS). Interestingly, we observed that active nail-biters preferred motor interference and were willing to accept reduced motor agency when they could retain autonomy over the intervention system. Our findings characterize how nail-biters negotiate agency in inhibiting nail-biting, highlighting the importance of user autonomy and offering insights for designing future nail-biting interventions.",
+    "Award": ""
+  },
+  {
     "Name": "WireDrum",
     "Title": "WireDrum: An Interpersonal and Multimodal Skill-Sharing System for an Augmented Drumming Experience",
-    "Author": "Hamza Shah Khan*, Hikari Yukawa*, Chikato Ikejiri, Yoshihiro Tanaka**, Jun Nishida**",
+    "Author": "Hamza Shah Khan, Hikari Yukawa, Chikato Ikejiri, Yoshihiro Tanaka, Jun Nishida",
     "Venue": "ACM SIGGRAPH Asia 2025 Emerging Technologies",
     "Year": 2025,
     "PaperLink": "https://dl.acm.org/doi/10.1145/3757373.3763783",
