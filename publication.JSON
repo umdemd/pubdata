@@ -1,5 +1,41 @@
 [
   {
+    "Name": "ProtoCall",
+    "Title": "TBA",
+    "Author": "TBA",
+    "Venue": "ACM UIST 2026",
+    "Year": 2026,
+    "PaperLink": "TBA",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/9feddcd0-4399-4c66-bf42-6aa969939613/PC.JPG",
+    "VideoLink": "",
+    "Abstract": "TBA",
+    "Award": ""
+  },
+  {
+    "Name": "DilatArm",
+    "Title": "DilatArm: An Accessible, Low-cost Passive Exoskeleton using Dilatant Fluid for Viscosity Feedback during Spatial Movement",
+    "Author": "Ching-Wen Hung, Eric Chen, Hamza Shah Khan, Po Ying Hsu, Bing-Yu Chen, and Jun Nishida",
+    "Venue": "ACM SUI 2026",
+    "Year": 2026,
+    "PaperLink": "https://doi.org/10.1145/3822518.3830065",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/b4e64984-17c0-43bc-85d4-867c3c5e9eae/DL.jpeg",
+    "VideoLink": "",
+    "Abstract": "We present DilatArm, a passive haptic exoskeleton that provides tunable velocity-dependent resistance through a dilatant-fluid-based mechanism. Unlike conventional passive resistive systems with fixed resistance characteristics, DilatArm incorporates a custom shape-changing blade mechanism that mechanically reconfigures the resistance profile without motors, sensors, or continuous power input. The resulting system is low-cost, lightweight, safe, and battery-free. We conducted three technical evaluations to characterize how design parameters influence resistance generation, followed by two user studies investigating users’ perception and behavioral responses. Results show that users can perceive resistance changes (JND = 24.6 degrees on average) and that DilatArm linearly regulates movement speed (R^2 = 0.94). Based on these findings, we derive a design space that maps module configurations to resistance, perception, and behavior, providing guidance for custom haptic interfaces based on adjustable motion-based resistance. We discuss DilatArm’s potential applications for spatial interaction through movement regulation, including embodied simulation of motor impairments, motor-skill learning, and assistive tools for physical therapy.",
+    "Award": ""
+  },
+  {
+    "Name": "Haptimize",
+    "Title": "Understanding Motor Learning Experiences with Personalized Multi-Haptic Feedback",
+    "Author": "Kyungyeon Lee, Arnav Dadarya, Fumeng Yang, and Jun Nishida",
+    "Venue": "IEEE SMC 2026",
+    "Year": 2026,
+    "PaperLink": "TBA",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/18b7f0de-4de8-4d72-a5f6-cee0a1d8d3fb/cust.jpg",
+    "VideoLink": "",
+    "Abstract": "We explored how users experience motor learning with personalized multi-haptic feedback. To this end, we implemented Haptimize, a computational optimization system for the order and type of haptic feedback to be provided (EMS, vibrotactile, or exoskeleton) by jointly modeling objective performance and subjective factors (e.g., agency, effort, and confidence). Haptimize supports two optimization modes: fully automatic optimization, which adapts feedback based solely on performance and subjective scores, and collaborative optimization, which additionally incorporates explicit user preference responses (i.e., Like/Dislike) during optimization. A user study (N=18) on a piano learning task showed that automatic optimization improved performance while collaborative optimization enhanced subjective experience, indicating complementary roles for the two modes. Compared with prior manual customization, both computational modes achieved comparable learning performance while reducing configuration time from 48.5s to under 10s, making multi-haptic motor learning substantially more practical.",
+    "Award": ""
+  },
+  {
     "Name": "FIXical I/O",
     "Title": "FIXical I/O: Exploring the Effects of Real-time Error Sensing and Physical Intervention on Finger-based Motor Sequence Learning",
     "Author": "Kyungyeon Lee, Jai Vaichalkar, Arnav Dadarya, Wooje Chang, Atsushi Kikumoto, and Jun Nishida",

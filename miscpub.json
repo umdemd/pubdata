@@ -1,5 +1,17 @@
 [
   {
+    "Name": "DilatArm",
+    "Title": "Demonstration of DilatArm: An Accessible, Low-Cost Passive Exoskeleton Powered by Dilatant Fluid for Velocity-Dependent Force Feedback",
+    "Author": "Eric Chen, Ching-Wen Hung, Hamza Shah Khan, Po Ying Hsu, Bing-Yu Chen, and Jun Nishida",
+    "Venue": "ACM SUI 2026 Demos",
+    "Year": 2026,
+    "PaperLink": "TBA",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/ec60ddd5-56ff-4fa6-9687-2bbff46adcd4/SUI2026.png",
+    "VideoLink": "TBA",
+    "Abstract": "We present DilatArm, a passive haptic exoskeleton that provides tunable velocity-dependent resistance through a dilatant-fluid-based mechanism. Unlike conventional passive resistive systems with fixed resistance characteristics, DilatArm incorporates a custom shape-changing blade mechanism that mechanically reconfigures the resistance profile without motors, sensors, or continuous power input. The resulting system is low-cost, lightweight, safe, and battery-free. We conducted three technical evaluations to characterize how design parameters influence resistance generation, followed by two user studies investigating users’ perception and behavioral responses. Results show that users can perceive resistance changes (JND = 24.6 degrees on average) and that DilatArm linearly regulates movement speed (R^2 = 0.94). Based on these findings, we derive a design space that maps module configurations to resistance, perception, and behavior, providing guidance for custom haptic interfaces based on adjustable motion-based resistance. We discuss DilatArm’s potential applications for spatial interaction through movement regulation, including embodied simulation of motor impairments, motor-skill learning, and assistive tools for physical therapy.",
+    "Award": ""
+  },
+  {
     "Name": "Body Transformation Experiences",
     "Title": "Body Transformation Experiences: A workshop on How to Elicit, Assess and Support them through Multisensory Technology",
     "Author": "Ana Tajadura-Jiménez, Elena Márquez Segura, Marte Roel Lesur, Laia Turmo Vidal, Frederic Bevilacqua, Nadia Berthouze, Aneesha Singh, Alice C Haynes, Pedro Lopes, Jun Nishida, Don Samitha Elvitigala, and Paul Strohmeier",
