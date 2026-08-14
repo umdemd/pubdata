@@ -1,5 +1,17 @@
 [
   {
+    "Name": "Augmenting Human Dexterity",
+    "Title": "Workshop on Augmenting Human Dexterity: From Multisensory Feedback and Motor Capabilities to Skill Acquisition",
+    "Author": "Shan-Yuan Teng, Tan Gemicioglu, Kyungyeon Lee, Dishita G Turakhia, Patricia Alves-Oliveira, Jennifer Jacobs, Hideki Koike, Pedro Lopes, and Jun Nishida",
+    "Venue": "ACM UIST 2026 Workshops",
+    "Year": 2026,
+    "PaperLink": "TBA",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/2e793a9f-8aab-46f2-854d-94d43f771318/uist2026.png",
+    "VideoLink": "",
+    "Abstract": "Human dexterity enables versatile and precise manipulation in everyday life. Recent advances in wearable and mobile computing have opened new ways to augment this dexterity. These efforts go beyond traditional assistive tools—whose primary function has been to restore or enhance strength—and instead aim to support more precise and complex performance across diverse domains, such as playing musical instruments or performing precision tasks at a workbench. A range of technologies has been explored, including multimodal sensory cues, adaptive learning schemes, robots, and exoskeletons. Yet individual projects remain limited in scope, often confined to a specific technology or application domain. Because dexterity is inherently multifaceted, no single perspective is likely to capture it fully—yet UIST has not seen a dedicated effort to bring these perspectives together. We therefore propose this workshop, framing the topic as a broad goal: \\textit{augmenting human dexterity}. We aim to bring together researchers including those from mechanical engineering, neuroscience, learning science, and domain-specific expertise, to discuss what dexterity entails and how technology might support it in a more holistic way. Through interdisciplinary talks, interactive demonstrations, and collaborative discussions, we hope to map out a broad research agenda in this direction.",
+    "Award": ""
+  },
+  {
     "Name": "DilatArm",
     "Title": "Demonstration of DilatArm: An Accessible, Low-Cost Passive Exoskeleton Powered by Dilatant Fluid for Velocity-Dependent Force Feedback",
     "Author": "Eric Chen, Ching-Wen Hung, Hamza Shah Khan, Po Ying Hsu, Bing-Yu Chen, and Jun Nishida",
