@@ -19,7 +19,7 @@
     "Year": 2026,
     "PaperLink": "https://doi.org/10.1145/3822518.3830065",
     "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/b4e64984-17c0-43bc-85d4-867c3c5e9eae/DL.jpeg",
-    "VideoLink": "",
+    "VideoLink": "https://www.youtube.com/watch?v=D4tH95ln2fg",
     "Abstract": "We present DilatArm, a passive haptic exoskeleton that provides tunable velocity-dependent resistance through a dilatant-fluid-based mechanism. Unlike conventional passive resistive systems with fixed resistance characteristics, DilatArm incorporates a custom shape-changing blade mechanism that mechanically reconfigures the resistance profile without motors, sensors, or continuous power input. The resulting system is low-cost, lightweight, safe, and battery-free. We conducted three technical evaluations to characterize how design parameters influence resistance generation, followed by two user studies investigating users’ perception and behavioral responses. Results show that users can perceive resistance changes (JND = 24.6 degrees on average) and that DilatArm linearly regulates movement speed (R^2 = 0.94). Based on these findings, we derive a design space that maps module configurations to resistance, perception, and behavior, providing guidance for custom haptic interfaces based on adjustable motion-based resistance. We discuss DilatArm’s potential applications for spatial interaction through movement regulation, including embodied simulation of motor impairments, motor-skill learning, and assistive tools for physical therapy.",
     "Award": ""
   },
