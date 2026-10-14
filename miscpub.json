@@ -21,7 +21,7 @@
     "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/ec60ddd5-56ff-4fa6-9687-2bbff46adcd4/SUI2026.png",
     "VideoLink": "https://www.youtube.com/watch?v=D4tH95ln2fg",
     "Abstract": "We present DilatArm, a passive haptic exoskeleton that provides tunable velocity-dependent resistance using a dilatant-fluid-based mechanism. A custom shape-changing blade mechanically adjusts the resistance profile without motors, sensors, or continuous power input. In this demo, users directly feel stronger resistance at higher movement speeds, while different blade configurations alter the resistance profile. Our prior evaluations  [7] show that these resistance changes are perceptible and can systematically regulate arm movement speed. The demonstration provides a hands-on experience of tunable, battery-free resistive haptic feedback based on dilatant fluid.",
-    "Award": ""
+    "Award": "Best Demo Award"
   },
   {
     "Name": "Body Transformation Experiences",
