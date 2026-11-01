@@ -1,14 +1,14 @@
 [
   {
     "Name": "ProtoCall",
-    "Title": "TBA",
-    "Author": "TBA",
+    "Title": "ProtoCall: Preemptive Physical Feedback for Sequential Skill Augmentation",
+    "Author": "Kyungyeon Lee, Kirti Kishore, Adrien Ramsamy, Atsushi Kikumoto, and Jun Nishida",
     "Venue": "ACM UIST 2026",
     "Year": 2026,
-    "PaperLink": "TBA",
-    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/7efe0444-595c-411a-af29-5f5c14bc88ae/people.001.jpeg",
+    "PaperLink": "https://doi.org/10.1145/3830398.3830584",
+    "ThumbnailLink": "https://images.squarespace-cdn.com/content/66214dcc26841d4d27c5ba9b/8b879a09-37cf-4455-bd06-49d328081401/PC_hand.JPG",
     "VideoLink": "",
-    "Abstract": "TBA",
+    "Abstract": "Mastering sequential skills is essential for everyday and professional tasks such as cooking and assembly. However, executing actions in the correct order and with appropriate timing remains challenging, particularly during transitions between consecutive steps. Existing approaches, including haptic guidance, error-based feedback, or post-error correction, either increase cognitive load, reduce users’ agency, or intervene too late to prevent errors. We developed ProtoCall, a custom wearable physical feedback system, combined with a Vision–Language Model (VLM) for interaction inference, and designed three feedback strategies targeting different stages of the error process: 1) preemptive attentional nudging (attention-level guidance by head actuation), 2) preemptive reaching nudging (action-level prevention of reaching), and 3) post-error nudging. We conducted a user study with 16 participants on a sequential step-transition task, revealing trade-offs between physical feedback strategies across augmentation, retention, and user experience.",
     "Award": ""
   },
   {
